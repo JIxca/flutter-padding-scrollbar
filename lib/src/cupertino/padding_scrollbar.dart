@@ -1,5 +1,3 @@
-library padding_scrollbar;
-
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';

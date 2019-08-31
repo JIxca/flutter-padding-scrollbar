@@ -1,7 +1,3 @@
-// Copyright 2016 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -118,6 +114,7 @@ class _PaddingScrollbarState extends State<PaddingScrollbar>
       case TargetPlatform.iOS:
         return CupertinoPaddingScrollbar(
           child: widget.child,
+          padding: widget.padding,
         );
       case TargetPlatform.android:
       case TargetPlatform.fuchsia:
