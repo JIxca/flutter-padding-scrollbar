@@ -7,7 +7,7 @@ A scrollbar widget that supports padding.
 Add the package to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  padding_scrollbar: 0.0.1
+  padding_scrollbar: ^0.0.4
 ```
 
 Import the package:

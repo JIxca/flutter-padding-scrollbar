@@ -1,6 +1,6 @@
 name: padding_scrollbar
 description: A scrollbar widget that supports padding.
-version: 0.0.2
+version: 0.0.4
 author: Robert Mainzer <kontakt@rmainzer.de>
 homepage: https://github.com/xonaman/flutter-padding-scrollbar/
 
